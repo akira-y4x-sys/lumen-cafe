@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumen Café</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="logo">Lumen Café</h1>
+
+    <p class="subtitle">
+      Café artesanal, doces frescos e um ambiente minimalista.
+    </p>
+  </header>
+
+  <!-- Filter Buttons -->
+  <section class="filters">
+    <button class="filter-btn active" data-filter="all">Todos</button>
+    <button class="filter-btn" data-filter="drinks">Bebidas</button>
+    <button class="filter-btn" data-filter="food">Comidas</button>
+    <button class="filter-btn" data-filter="dessert">Sobremesas</button>
+  </section>
+
+  <!-- Menu -->
+  <section class="menu">
+
+    <div class="menu-item" data-category="drinks">
+      <h3>Latte Cremoso</h3>
+      <span>R$ 16</span>
+    </div>
+
+    <div class="menu-item" data-category="drinks">
+      <h3>Cappuccino Clássico</h3>
+      <span>R$ 18</span>
+    </div>
+
+    <div class="menu-item" data-category="food">
+      <h3>Sanduíche Natural</h3>
+      <span>R$ 22</span>
+    </div>
+
+    <div class="menu-item" data-category="food">
+      <h3>Torrada com Abacate</h3>
+      <span>R$ 24</span>
+    </div>
+
+    <div class="menu-item" data-category="dessert">
+      <h3>Cookie Artesanal</h3>
+      <span>R$ 12</span>
+    </div>
+
+    <div class="menu-item" data-category="dessert">
+      <h3>Cheesecake de Baunilha</h3>
+      <span>R$ 20</span>
+    </div>
+
+  </section>
+
+<footer class="footer">
+  <div class="footer-content">
+
+    <!-- Sobre -->
+    <div class="footer-section">
+      <h4>Sobre nós</h4>
+      <p>
+        O Lumen Café é um espaço minimalista criado para quem ama café artesanal,
+        doces frescos e momentos tranquilos no coração da cidade.
+      </p>
+    </div>
+
+    <!-- Contato -->
+    <div class="footer-section">
+      <h4>Contato</h4>
+      <p>📍 Rua Exemplo, 789 — São Paulo</p>
+      <p>📩 contato@lumencafe.com</p>
+      <p>☕ Instagram: @lumencafe</p>
+    </div>
+
+  </div>
+
+  <span class="footer-bottom">
+    © 2026 Lumen Café — Todos os direitos reservados.
+  </span>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
